@@ -4,6 +4,9 @@ function appendToDisplay(input){
     if (display.value != "Error"){
         display.value += input;
     }
+    else{
+        alert("Clear display first!")
+    }
     
 
 }
